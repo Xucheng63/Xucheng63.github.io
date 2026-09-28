@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xucheng Yu</title>
+  <meta name="description" content="Xucheng Yu — Trustworthy AI, LLM Safety and Reliability, Agentic and Multi-Agent Systems." />
+  <meta name="author" content="Xucheng Yu" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav" aria-label="Section navigation">
+      <a class="brand" href="#top">Xucheng Yu</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#research">Research</a>
+        <a href="#systems">Systems</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+          <span class="theme-icon">◐</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <img class="avatar" src="assets/photo.jpg" alt="Portrait of Xucheng Yu" />
+      <div class="hero-text">
+        <h1>Xucheng Yu</h1>
+        <p class="tagline">Trustworthy AI &bull; LLM Safety and Reliability &bull; Agentic and Multi-Agent Systems</p>
+        <p class="affil">M.Eng. in Electrical &amp; Computer Engineering, University of Illinois Urbana-Champaign</p>
+        <ul class="links">
+          <li><a href="mailto:xy63@illinois.edu">Email</a></li>
+          <li><a href="tel:+8618762883800">Phone</a></li>
+          <li><a href="assets/cv.pdf" target="_blank" rel="noopener">CV</a></li>
+          <li><a href="https://github.com/Xucheng63" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+        <p class="contact-line">
+          <a href="mailto:xy63@illinois.edu">xy63@illinois.edu</a>
+          <span class="sep">·</span>
+          <a href="tel:+8618762883800">+86 187 6288 3800</a>
+          <span class="sep">·</span>
+          Urbana-Champaign, IL
+        </p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I am a researcher working on <strong>trustworthy foundation models</strong>. My work centers on
+        adversarial robustness, auditable reasoning and evaluation, and reliable agentic and
+        multi-agent decision-making under uncertainty. I am drawn to the questions of how large
+        language models behave when they are pushed, probed, and deployed at scale &mdash; and how we can
+        make them safer and more dependable in the process.
+      </p>
+      <p>
+        I recently completed my <strong>Master of Engineering in Electrical and Computer Engineering</strong>
+        at the University of Illinois Urbana-Champaign (GPA 4.0/4.0), where I work with
+        <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Dr. Haohan Wang</a> and
+        <a href="https://www.huan-zhang.com/" target="_blank" rel="noopener">Dr. Huan Zhang</a>. Before UIUC, I earned dual <strong>B.Sc. degrees in Mathematics with Computer
+        Science</strong> from the Guangdong Technion &mdash; Israel Institute of Technology (GTIIT) and the
+        Technion &mdash; Israel Institute of Technology, graduating on the Dean's List. Alongside research,
+        I build production systems &mdash; from GEO auditing platforms to natural-language tool orchestration.
+      </p>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news" class="section">
+      <h2>News</h2>
+      <ul class="news-list">
+        <li><span class="date">Sep 2026</span><span class="news-body">New preprint <em>MonitorBench</em> accepted at <strong>COLM 2026</strong>.</span></li>
+        <li><span class="date">Sep 2026</span><span class="news-body">Submitted <em>Gap Detection for GEO Positioning and LLM Output Diversity</em> to <strong>ICLR 2027</strong> and <em>Rhetorical Distortion Detection across Platforms</em> to <strong>WWW 2027</strong>.</span></li>
+        <li><span class="date">Aug 2026</span><span class="news-body"><em>Understanding Content Moderation through Restricted Books</em> accepted at <strong>AIES 2026</strong>.</span></li>
+        <li><span class="date">Aug 2026</span><span class="news-body"><em>Prompt Stability Matters</em> accepted at <strong>CPAL 2026</strong>.</span></li>
+        <li><span class="date">May 2026</span><span class="news-body"><em>SCI-Defense</em> and <em>HEART</em> submitted to <strong>NeurIPS 2026</strong>; preprint <em>SCI-Defense</em> available on arXiv.</span></li>
+        <li><span class="date">May 2026</span><span class="news-body">Joined <strong>TopCited.ai</strong> and <strong>Heelo</strong> as a Research Engineer.</span></li>
+      </ul>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="section">
+      <h2>Publications &amp; Manuscripts</h2>
+      <p class="muted small">Author names in <strong>bold</strong> indicate my contribution. Submitted manuscripts are under peer review.</p>
+      <ol class="pub-list">
+        <li class="pub">
+          <div class="pub-title">SCI-Defense: Defending Manipulation Attacks from Generative Engine Optimization</div>
+          <div class="pub-authors"><strong>Xucheng Yu</strong>, Haibo Jin, Huimin Zeng, <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+          <div class="pub-venue"><span class="badge badge-submit">Submitted to NeurIPS 2026</span> arXiv:2605.21948</div>
+          <div class="pub-links">
+            <a href="assets/papers/sci-defense.pdf" target="_blank" rel="noopener">[PDF]</a>
+            <a href="https://arxiv.org/abs/2605.21948" target="_blank" rel="noopener">[arXiv]</a>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-title">MonitorBench: A Comprehensive Benchmark for Chain-of-Thought Monitorability in Large Language Models</div>
+          <div class="pub-authors">Han Wang, Yifan Sun, Brian Ko, Mann Talati, Jiawen Gong, Zimeng Li, Naicheng Yu, <strong>Xucheng Yu</strong>, Wei Shen, Vedant Jolly, <a href="https://www.huan-zhang.com/" target="_blank" rel="noopener">Huan Zhang</a></div>
+          <div class="pub-venue"><span class="badge badge-accept">Accepted at COLM 2026</span></div>
+          <div class="pub-links">
+            <a href="assets/papers/monitorbench.pdf" target="_blank" rel="noopener">[PDF]</a>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-title">Understanding Content Moderation in Large Language Models through Restricted Books: From Refusal to Warning</div>
+          <div class="pub-authors"><strong>Xucheng Yu</strong>, Emily Knox, <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+          <div class="pub-venue"><span class="badge badge-accept">Accepted at AIES 2026</span></div>
+          <div class="pub-links">
+            <a href="assets/papers/content-moderation.pdf" target="_blank" rel="noopener">[PDF]</a>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-title">HEART: Harness Engineering in LLM Tool Use via Agent-Native Reusable Tool Primitives</div>
+          <div class="pub-authors">Haibo Jin, Suijin Wang, <strong>Xucheng Yu</strong>, Haojing Luo, <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+          <div class="pub-venue"><span class="badge badge-submit">Submitted to NeurIPS 2026</span></div>
+          <div class="pub-links">
+            <a href="assets/papers/heart.pdf" target="_blank" rel="noopener">[PDF]</a>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-title">Prompt Stability Matters: Evaluating and Optimizing Auto-Generated Prompt in General-Purpose Systems</div>
+          <div class="pub-authors">Ke Chen, <strong>Xucheng Yu</strong>, Yufei Zhou, <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+          <div class="pub-venue"><span class="badge badge-accept">Accepted at CPAL 2026</span></div>
+          <div class="pub-links">
+            <a href="assets/papers/prompt-stability.pdf" target="_blank" rel="noopener">[PDF]</a>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-title">Closed-Loop Self-Improving Scientific Paper Generation: An Iterative Framework Combining AI Generation, Automated Review, and Targeted Optimization</div>
+          <div class="pub-authors"><strong>Xucheng Yu</strong>, Ruojia Tao, <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+          <div class="pub-venue"><span class="badge badge-manu">Manuscript</span></div>
+          <div class="pub-links">
+            <a href="assets/papers/self-improving-paper-gen.pdf" target="_blank" rel="noopener">[PDF]</a>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-title">Gap Detection for GEO Positioning and LLM Output Diversity</div>
+          <div class="pub-authors"><strong>Xucheng Yu</strong>, Haibo Jin, Xiaoqi Wang, Runze Kong, <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+          <div class="pub-venue"><span class="badge badge-submit">Submitted to ICLR 2027</span></div>
+          <div class="pub-links">
+            <a href="assets/papers/gap-detection.pdf" target="_blank" rel="noopener">[PDF]</a>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-title">Rhetorical Distortion Detection across Platforms</div>
+          <div class="pub-authors"><strong>Xucheng Yu</strong>, <a href="https://jiangpingchen.github.io/" target="_blank" rel="noopener">Jiangping Chen</a>, <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+          <div class="pub-venue"><span class="badge badge-submit">Submitted to The Web Conference (WWW) 2027</span></div>
+          <div class="pub-links">
+            <a href="assets/papers/rhetorical-distortion.pdf" target="_blank" rel="noopener">[PDF]</a>
+          </div>
+        </li>
+        <li class="pub">
+          <div class="pub-title">GEO Survey and Unified Evaluation Benchmark</div>
+          <div class="pub-authors">Xiaoqi Wang, <strong>Xucheng Yu</strong>, Runze Kong, Haibo Jin, Huimin Zeng, Yifan Xu, <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+          <div class="pub-venue"><span class="badge badge-submit">Submitted to IEEE TKDE</span></div>
+          <div class="pub-links">
+            <a href="assets/papers/geo-survey.pdf" target="_blank" rel="noopener">[PDF]</a>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- RESEARCH EXPERIENCE -->
+    <section id="research" class="section">
+      <h2>Research Experience</h2>
+      <p class="muted small">Research Assistant, University of Illinois Urbana-Champaign</p>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Gap Detection for GEO Positioning and LLM Output Diversity</span>
+          <span class="entry-date">Jul &ndash; Oct 2026</span>
+        </div>
+        <div class="entry-sub">Advisor: Dr. <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+        <ul>
+          <li>Formulated a unified Gap Detection framework connecting three forms of AI content homogenization &mdash; LLM output diversity, GEO market positioning, and synthetic training-data collapse &mdash; via Demand &times; Defensibility optimization in embedding space.</li>
+          <li>Developed the Unmet-Demand Theorem and a Nash-product objective; reduced LLM response collision by 12.8% on curated topics and 10.8% across hundreds of INFINITY-CHAT responses.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Rhetorical Distortion Detection across Platforms</span>
+          <span class="entry-date">Jul &ndash; Oct 2026</span>
+        </div>
+        <div class="entry-sub">Advisor: Dr. <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a> &middot; Co-advisor: <a href="https://jiangpingchen.github.io/" target="_blank" rel="noopener">Dr. Jiangping Chen</a>, Professor, School of Information Sciences, UIUC</div>
+        <ul>
+          <li>Designed a multi-platform, multi-language classifier for account-level rhetorical distortion across 332 accounts and 13,219 posts from RSS/Newsletter, YouTube, Bluesky, Reddit, Weibo, and Twitter/X.</li>
+          <li>Built a three-tier pipeline (rule-based signals, negative-pattern filtering, GPT-4o-mini verification) over five distortion dimensions; validated on 200 human-annotated posts with Cohen's &kappa; = 0.76 and a 12-point precision gain over a rule-only baseline.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">GEO Survey and Unified Evaluation Benchmark</span>
+          <span class="entry-date">May &ndash; Oct 2026</span>
+        </div>
+        <div class="entry-sub">Advisor: Dr. <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+        <ul>
+          <li>Systematically characterized adversarial manipulation of LLM ranking systems across 20 GEO pipelines, establishing a benchmark foundation for evaluating trustworthiness under deployment-time attacks.</li>
+          <li>Compared AutoGEO, MAGEO, AgenticGEO, and E-GEO to surface algorithmic assumptions and new optimization and defense directions.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">SCI-Defense: Semantic Manipulation Defense for LLM Ranking</span>
+          <span class="entry-date">Jan &ndash; May 2026</span>
+        </div>
+        <div class="entry-sub">Advisor: Dr. <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+        <ul>
+          <li>Proposed a three-component defense combining perplexity detection, Semantic Integrity Scoring, and Inter-Candidate Detection; achieved 1.000 precision and 0.000 false-positive rate across 1,200 Amazon ProductBench and MS MARCO evaluations.</li>
+          <li>Developed six black-box attacks, showing that semantic manipulation via relevance inflation remains a structural blind spot for existing perplexity filters, safety classifiers, and paraphrasing defenses.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">HEART: Reliable Multi-Agent Tool Use</span>
+          <span class="entry-date">Jan &ndash; May 2026</span>
+        </div>
+        <div class="entry-sub">Advisor: Dr. <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+        <ul>
+          <li>Designed Tool Primitives and HEART's Planner-Router-Verifier workflow; built ToolFace, a repository of 25,519 functions supporting dynamic retrieval, nested calls, and feedback-driven recovery.</li>
+          <li>Evaluated on five benchmarks with a 10% gain over SFT baselines and 6% over frontier commercial models, while reducing token consumption by up to 85%.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Content Moderation through Restricted Books</span>
+          <span class="entry-date">Jan &ndash; May 2026</span>
+        </div>
+        <div class="entry-sub">Advisor: Dr. <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+        <ul>
+          <li>Executed a 40,800-pair empirical study across 400 books and 17 prompt designs over six frontier models (Claude Sonnet 4.5, GPT-4o, Gemini 2.5 Flash, DeepSeek V3, Qwen-Plus, Grok-4.1-Fast); uncovered a near-zero refusal rate (0.07%), revealing systematic cross-model safety-alignment gaps.</li>
+          <li>Characterized the shift from refusal to warning-based moderation, with warning gaps of 8&ndash;15 points and prompt-dependent gaps reaching 19 points.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">MonitorBench: Chain-of-Thought Monitorability</span>
+          <span class="entry-date">Jan &ndash; Apr 2026</span>
+        </div>
+        <div class="entry-sub">Advisor: <a href="https://www.huan-zhang.com/" target="_blank" rel="noopener">Dr. Huan Zhang</a>, Assistant Professor of ECE at UIUC</div>
+        <ul>
+          <li>Contributed to MonitorBench, a benchmark evaluating chain-of-thought monitorability across 1,514 instances, 19 tasks, and seven categories, with standard, direct-concealment, and monitor-aware-evasion settings.</li>
+          <li>Implemented the impossible-coding-task evaluation adapted from ImpossibleBench and engineered a parallel multi-model inference and verification pipeline for large-scale experiments.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Prompt Stability and Multi-Agent Systems for Data Science</span>
+          <span class="entry-date">Feb &ndash; Sep 2025</span>
+        </div>
+        <div class="entry-sub">Advisor: Dr. <a href="https://haohanwang.github.io/" target="_blank" rel="noopener">Haohan Wang</a></div>
+        <ul>
+          <li>Established semantic stability as a key reliability criterion for auto-generated prompts, with an optimization framework linking prompt consistency to system-level task success.</li>
+          <li>Architected a full-stack multi-agent platform with editable and regenerable agent dialogues, reaching 95% task completion and reducing user intervention by 40%.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- RESEARCH SYSTEMS & PLATFORMS -->
+    <section id="systems" class="section">
+      <h2>Research Systems &amp; Platforms</h2>
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Generative Engine Optimization Platform &mdash; <a href="https://topcited.ai/" target="_blank" rel="noopener">TopCited.ai</a></span>
+          <span class="entry-date">May 2026 &ndash; Present</span>
+        </div>
+        <div class="entry-sub">Research Engineer</div>
+        <ul>
+          <li>Developing GEO SaaS features for AI visibility auditing, content optimization, and SCI-Defense-based ranking-manipulation detection across ChatGPT, Gemini, and Perplexity.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Natural-Language Tool Orchestration Platform &mdash; <a href="https://www.heelo.dev/" target="_blank" rel="noopener">Heelo</a></span>
+          <span class="entry-date">May 2026 &ndash; Present</span>
+        </div>
+        <div class="entry-sub">Research Engineer</div>
+        <ul>
+          <li>Engineering natural-language tool orchestration with dynamic routing, multi-turn clarification, browser-based integrations, and credential-isolated execution.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROFESSIONAL EXPERIENCE -->
+    <section id="experience" class="section">
+      <h2>Professional Experience</h2>
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title"><a href="https://www.thedonovanspianoroom.com/" target="_blank" rel="noopener">Donovan's Piano Room</a></span>
+          <span class="entry-date">Feb &ndash; Jul 2026</span>
+        </div>
+        <div class="entry-sub">Full-Stack Engineer &middot; Urbana-Champaign, IL</div>
+        <ul>
+          <li>Resolved authentication and session-management defects across the Next.js frontend, Node.js/TypeScript backend, and Redis infrastructure by redesigning token-validation logic and decoupling protected routes from short-lived access tokens.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Bosch Automotive Products (Suzhou) Co., Ltd.</span>
+          <span class="entry-date">Sep &ndash; Oct 2023</span>
+        </div>
+        <div class="entry-sub">Software Engineering Intern &middot; Suzhou, China</div>
+        <ul>
+          <li>Developed and deployed an IoT data-processing and machine-learning pipeline using Airflow, Pandas, TensorFlow, FastAPI, and C/Cython &mdash; reducing preprocessing time by 40%, improving model accuracy by 12%, lowering query latency by 30%, and accelerating inference by 10&times;.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Augmented Reality Interactive Modeling for Kohler</span>
+          <span class="entry-date">May &ndash; Aug 2025</span>
+        </div>
+        <ul>
+          <li>Developed a real-time AR inspection pipeline using Python, Open3D, and Unity &mdash; achieving 0.1&ndash;0.2 mm precision and ICP-based pose tracking for meshes with over 10 million vertices.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">RLHF for Qwen2.5-7B-Instruct</span>
+          <span class="entry-date">Jan &ndash; May 2025</span>
+        </div>
+        <ul>
+          <li>Implemented an end-to-end PPO/GAE/KL-penalty pipeline with LoRA; achieved 70.1% pairwise preference accuracy and a 64.7% win rate versus 33.0% for the baseline on Stack Exchange data.</li>
+        </ul>
+      </div>
+      <div class="entry">
+        <div class="entry-head">
+          <span class="entry-title">Distributed Consensus and Fault Detection (Paxos / Raft)</span>
+          <span class="entry-date">Jan &ndash; Apr 2025</span>
+        </div>
+        <ul>
+          <li>Implemented Paxos and Raft over gRPC/Protobuf with 99.9% leader-election success and sub-200 ms election latency under network partitions; halved fault-detection time in simulated failures.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TEACHING & SKILLS -->
+    <div class="two-col">
+      <section id="teaching" class="section">
+        <h2>Teaching</h2>
+        <div class="entry">
+          <div class="entry-head">
+            <span class="entry-title">Peer Tutor &amp; Grader</span>
+          </div>
+          <div class="entry-sub">Guangdong Technion &mdash; Israel Institute of Technology</div>
+          <ul>
+            <li>Tutored lower-year students in mathematics and computer science, supporting concept clarification, problem-solving strategies, and adaptation to a rigorous Technion-aligned curriculum.</li>
+            <li>Graded assignments for Calculus, Topology, and Probability, giving feedback on mathematical reasoning, proof structure, and solution clarity.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skill-group">
+          <span class="skill-label">Research Methods</span>
+          <p>LLM evaluation, benchmark design, adversarial testing, large-scale empirical analysis, RLHF, multi-agent system evaluation</p>
+        </div>
+        <div class="skill-group">
+          <span class="skill-label">Programming</span>
+          <p>Python, C/C++, Go, Java, TypeScript/JavaScript</p>
+        </div>
+        <div class="skill-group">
+          <span class="skill-label">Frameworks &amp; Tools</span>
+          <p>PyTorch, vLLM, SGLang, LoRA, FastAPI, Docker, React, Node.js, gRPC/Protobuf</p>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Xucheng Yu. Last updated <span id="updated">September 2026</span>.</p>
+    <p class="muted small">Built as a static site &middot; hosted on GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
