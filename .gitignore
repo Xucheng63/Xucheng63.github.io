@@ -1,15 +1,16 @@
 # macOS
 .DS_Store
 
-# Original source files (copied into assets/ already)
-paper1.pdf
-paper2.pdf
-paper3.pdf
-paper4.pdf
-paper5.pdf
-paper6.pdf
-paper7.pdf
-paper8.pdf
-GEO_Survey.pdf
-photo.jpg
-XUCHENG_YU__PhD_CV.pdf
+# Original source files at repo root (copied into assets/ already).
+# Leading slash anchors to root so assets/ copies are NOT ignored.
+/paper1.pdf
+/paper2.pdf
+/paper3.pdf
+/paper4.pdf
+/paper5.pdf
+/paper6.pdf
+/paper7.pdf
+/paper8.pdf
+/GEO_Survey.pdf
+/photo.jpg
+/XUCHENG_YU__PhD_CV.pdf
